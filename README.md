@@ -9,6 +9,8 @@ Authentication Flow uses [json web tokens](https://jwt.io) via Passport library 
 > Features:
 
 - Simple, intuitive codebase - can be extended with ease.  
+- Typescript
+- Data validation with Joy
 - Branches:
     - **Master**: NodeJS / Express / SQLite / TypeORM
     - **Mongo**:  NodeJS / Express / MongoDB / Mongoose
