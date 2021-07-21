@@ -34,7 +34,7 @@ Authentication Flow uses [json web tokens](https://jwt.io) via Passport library 
 ## Requirements
 
 - [Node.js](https://nodejs.org/) >= 10.x
-- [SQLite](https://www.sqlite.org/index.html) server - used by `master` branch
+- [SQLite](https://www.sqlite.org/index.html) - used by `master` branch
 - [MongoDB](https://www.mongodb.com/) server - used by `mongo` branch
 
 <br />
