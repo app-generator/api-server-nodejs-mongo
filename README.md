@@ -57,13 +57,13 @@ $ npm i
 $ yarn
 ```
 
-**Run the SQLite migration**
+**Step #3** - Run the SQLite migration via TypeORM
 
 ```
 $ yarn typeorm migration:run
 ```
 
-**Step #3** - Start the API server (development mode)
+**Step #4** - Start the API server (development mode)
 
 ```bash
 $ npm dev
@@ -71,7 +71,7 @@ $ npm dev
 $ yarn dev
 ```
 
-**Step #4** - Production Build (files generated in `build` directory)
+**Step #5** - Production Build (files generated in `build` directory)
 
 ```bash
 $ npm build
@@ -79,7 +79,7 @@ $ npm build
 $ yarn build
 ```
 
-**Step #5** - Start the API server for production (files served from `build/index.js`)
+**Step #6** - Start the API server for production (files served from `build/index.js`)
 
 ```bash
 $ npm start
