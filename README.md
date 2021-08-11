@@ -2,7 +2,7 @@
 # Nodejs API Server PRO
 
 Express / Nodejs Starter with JWT authentication, and **SQLite** or **MongoDB** persistance - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
-Authentication Flow uses [json web tokens](https://jwt.io) via Passport library - `passport-jwt`.
+Authentication flow uses [json web tokens](https://jwt.io) via Passport library - `passport-jwt`.
 
 <br />
 
