@@ -49,7 +49,7 @@ $ git clone https://github.com/app-generator/priv-api-server-nodejs.git
 $ cd priv-api-server-nodejs
 ```
 
-**Step #2** - Install dependencies via NPM or yarn
+**Step #2** - Install dependencies via NPM or Yarn
 
 ```bash
 $ npm i
