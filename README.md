@@ -45,8 +45,8 @@ Authentication Flow uses [json web tokens](https://jwt.io) via Passport library 
 **Clone the sources**
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-nodejs.git
-$ cd api-server-nodejs
+$ git clone https://github.com/app-generator/priv-api-server-nodejs.git
+$ cd priv-api-server-nodejs
 ```
 
 **Install dependencies** via NPM or Yarn
