@@ -42,14 +42,14 @@ Authentication Flow uses [json web tokens](https://jwt.io) via Passport library 
 
 ## How to use the code
 
-**Clone the sources**
+**Step #1** - Clone the project (private repository)
 
 ```bash
 $ git clone https://github.com/app-generator/priv-api-server-nodejs.git
 $ cd priv-api-server-nodejs
 ```
 
-**Install dependencies** via NPM or Yarn
+**Step #2** - Install dependencies via NPM or yarn
 
 ```bash
 $ npm i
@@ -63,7 +63,7 @@ $ yarn
 $ yarn typeorm migration:run
 ```
 
-**Start the API server** - development mode
+**Step #3** - Start the API server (development mode)
 
 ```bash
 $ npm dev
@@ -71,7 +71,7 @@ $ npm dev
 $ yarn dev
 ```
 
-**Production Build** - files generated in `build` directory
+**Step #4** - Production Build (files generated in `build` directory)
 
 ```bash
 $ npm build
@@ -79,7 +79,7 @@ $ npm build
 $ yarn build
 ```
 
-**Start the API server** - for production (files served from `build/index.js`)
+**Step #5** - Start the API server for production (files served from `build/index.js`)
 
 ```bash
 $ npm start
