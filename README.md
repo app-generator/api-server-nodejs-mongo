@@ -16,8 +16,7 @@ Authentication flow uses [json web tokens](https://jwt.io) via Passport library 
     - **Master**: NodeJS / Express / SQLite / TypeORM
     - **Mongo**:  NodeJS / Express / MongoDB / Mongoose
 - Auth: Passport / `passport-jwt` strategy 
-- [API Interface Descriptor](https://github.com/app-generator/api-server-nodejs-pro/blob/master/media/api.postman_collection.json): POSTMAN Collection
-- Docker 
+- Unitary tests, Docker
 
 <br />
 
