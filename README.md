@@ -202,4 +202,4 @@ This software is provided by the core AppSeed team with an inspiration from othe
 <br />
 
 ---
-Nodejs API Server PRO - provided by AppSeed [App Generator](https://appseed.us)
+**Nodejs API Server PRO** - provided by AppSeed [App Generator](https://appseed.us)
