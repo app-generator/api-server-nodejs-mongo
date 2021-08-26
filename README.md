@@ -20,7 +20,7 @@ Authentication flow uses [json web tokens](https://jwt.io) via Passport library 
 
 <br />
 
-> **[Free Version](https://github.com/app-generator/api-server-nodejs-pro)** available: SQLite persistance, Unitary Tests, 24/7 LIVE Support via [Discord](https://discord.gg/fZC6hup)
+> **[Free Version](https://github.com/app-generator/api-server-nodejs)** available: SQLite persistance, Unitary Tests, 24/7 LIVE Support via [Discord](https://discord.gg/fZC6hup)
 
 > Can be used with other [React Starters](https://appseed.us/apps/react) for a complete **Full-Stack** experience:
 
