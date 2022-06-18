@@ -1,5 +1,5 @@
 
-# Nodejs API Server (Mongo)
+# Nodejs API Server Mongo
 
 Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by **Passport** library - provided and actively supported by **AppSeed** [App Generator](https://appseed.us/app-generator). The authentication flow is based on [json web tokens](https://jwt.io) and `passport-jwt` strategy - Inspired by other great OSS starters mentioned in the [credits](#credits) section.
 
