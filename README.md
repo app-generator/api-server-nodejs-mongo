@@ -8,8 +8,8 @@ Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by
 > Features:
 
 - Simple, intuitive codebase - built for beginners (can be extended with ease) 
-- Node JS / Express / MongoDB
-- Typescript 
+- Node JS / Express / Typescript
+- **Persistance**:  ``MongoDB` 
 - Auth: Passport / `passport-jwt` strategy 
 - [API Interface Descriptor](https://github.com/app-generator/api-server-nodejs/blob/master/media/api.postman_collection.json): POSTMAN Collection
 - Docker 
