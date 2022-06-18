@@ -39,6 +39,10 @@ Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by
 
 ## How to use the code
 
+**Create** `.env` from `.env.sample`
+
+Update the file with your data.
+
 **Clone the sources**
 
 ```bash
