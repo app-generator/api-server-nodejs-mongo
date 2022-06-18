@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  priv-api-server-nodejs:
+    container_name: api-server-nodejs
+    container_name: priv-api-server-nodejs
+    image: priv-api-server-nodejs
+    restart: unless-stopped
+    environment:
+      NODE_ENV: 'production'
+      PORT: '5000'
+      MONGO_URI: 'mongodb://mongo:27017/api_server_nodejs'
+      SECRET: 'SuperS3cret_4277m'
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+    volumes:
+      - .:/usr/src/priv-api-server-nodejs
+    networks:
+      - node-network
+
+  mongo:
+    container_name: mongodb
+    image: mongo:4.2.1-bionic
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: api_server_nodejs
+    ports:
+      - '27017:27017'
+    volumes:
+      - dbdata:/data/db
+    networks:
+      - node-network
+
+volumes:
+  dbdata:
+
+networks:
+  node-network:
+    driver: bridge
