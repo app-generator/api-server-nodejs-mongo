@@ -1,6 +1,13 @@
 # Change Log
 
-## [v1.0.0] 2022-06-18
+## [v1.0.1] 2022-06-18
+### Improvements
+
+- Create `env.sample`
+- Update README 
+- Open-Source Version
+
+## [v1.0.0] 2021-07-20
 ### Stable release - Mongo branch
 
 - Stack: NodeJS / Express / MongoDB / Mongoose
