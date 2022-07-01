@@ -1,5 +1,5 @@
 
-# Nodejs API Server Mongo
+# [Nodejs API Server](https://appseed.us/boilerplate-code/nodejs-starter/) `Mongo`
 
 Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by **Passport** library - provided and actively supported by **AppSeed** [App Generator](https://appseed.us/app-generator). The authentication flow is based on [json web tokens](https://jwt.io) and `passport-jwt` strategy - Inspired by other great OSS starters mentioned in the [credits](#credits) section.
 
@@ -7,11 +7,11 @@ Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by
 
 > Features:
 
+- [API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition) - the unified API structure implemented by this server
 - Simple, intuitive codebase - built for beginners (can be extended with ease) 
 - Node JS / Express / Typescript
 - **Persistance**:  `MongoDB`
 - Auth: Passport / `passport-jwt` strategy 
-- [API Interface Descriptor](https://github.com/app-generator/api-server-nodejs/blob/master/media/api.postman_collection.json): POSTMAN Collection
 - `Docker` 
 
 <br />
@@ -176,4 +176,4 @@ This software is provided by the core AppSeed team with an inspiration from othe
 <br />
 
 ---
-[Nodejs Starter](https://appseed.us/boilerplate-code/nodejs-starter) - provided by AppSeed [App Generator](https://appseed.us)
+[Nodejs API Server](https://appseed.us/boilerplate-code/nodejs-starter/) `Mongo` - provided by AppSeed [App Generator](https://appseed.us)
