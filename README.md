@@ -7,12 +7,12 @@ Simple starter built with Typescrypt / Express / MongoDB and JWT Auth powered by
 
 > Features:
 
-- [API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition) - the unified API structure implemented by this server
-- Simple, intuitive codebase - built for beginners (can be extended with ease) 
-- Node JS / Express / Typescript
-- **Persistance**:  `MongoDB`
-- Auth: Passport / `passport-jwt` strategy 
-- `Docker` 
+- ✅ [API Definition](https://docs.appseed.us/boilerplate-code/api-unified-definition) - the unified API structure implemented by this server
+- ✅ Simple, intuitive codebase - built for beginners (can be extended with ease) 
+- ✅ Node JS / Express / Typescript
+- ✅ **Persistance**:  `MongoDB`
+- ✅ Auth: Passport / `passport-jwt` strategy 
+- ✅ `Docker` 
 
 <br />
 
