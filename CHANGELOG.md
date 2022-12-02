@@ -1,5 +1,10 @@
 # Change Log
 
+## [v1.0.2] 2022-12-02
+### Changes
+
+- Update dependencies
+
 ## [v1.0.1] 2022-06-18
 ### Improvements
 
