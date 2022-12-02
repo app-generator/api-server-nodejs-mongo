@@ -18,7 +18,7 @@ export const createUserWithToken = async (userData: any) => {
     const query = {
       username,
       email,
-      user_role: role.role_no ?? DEFAULT_ROLE.role_no,
+      user_role: role?.role_no ?? DEFAULT_ROLE.role_no,
     };
     const newUser = new User(query);
     const returnedData: any = await newUser.save();
