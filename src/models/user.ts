@@ -3,7 +3,7 @@
 Copyright (c) 2019 - present AppSeed.us
 
 */
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 interface UserInterface {
   username: string;
@@ -19,11 +19,12 @@ const UserSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    required: true,
   },
   password: {
     type: String,
-    required: true,
+  },
+  user_role: {
+    type: Number,
   },
   date: {
     type: Date,
@@ -32,5 +33,5 @@ const UserSchema = new mongoose.Schema({
 });
 
 interface UserDbInterface extends UserInterface, mongoose.Document {}
-const User = mongoose.model<UserDbInterface>('User', UserSchema);
+const User = mongoose.model<UserDbInterface>("User", UserSchema);
 export default User;
